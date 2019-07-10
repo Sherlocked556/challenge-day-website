@@ -1,11 +1,11 @@
 #myFooter {
-    background-color: #b27db2;
+    background-color: #ff5260;
     color: white;
     padding-top: 30px;
 }
 
 #myFooter .footer-copyright {
-    background-color: #b27db2;
+    background-color: #333333;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -125,23 +125,50 @@ h1{
 html {
     scroll-behavior: smooth;
   }
-  body{
-    font-family: 'Raleway', sans-serif;
-  }
-.card-title{
-    font-family: 'Raleway', sans-serif !important;
-    font-weight: 600; 
-    text-align: center;
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
-.card{
-    border: 1px solid #b27db2 !important;
+.fa:hover {
+    opacity: 0.7;
 }
-.card-text{
-    font-family: 'Raleway', sans-serif !important;
-    font-weight: 300; 
-    text-align: center;
+
+.fa-facebook {
+  background: transparent;
+  color: black;
 }
-.small{
-    font-size: 35%;
-    text-align: center;
+
+.fa-github {
+  background: transparent;
+  color: black;
+}
+.fa-twitter {
+  background: transparent;
+  color: black;
+}
+
+.fa-google {
+  background: transparent;
+  color: black;
+}
+
+.fa-linkedin {
+  background: transparent;
+  color: black;
+}
+
+.footer {
+  position: vary;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #814c81;
+  color: white;
+  text-align: center;
 }
