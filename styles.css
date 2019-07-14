@@ -104,12 +104,50 @@
 margin-left: 20px;
 padding: 20px;
 }
+
 .nav-item :hover{
     background-color:#b27db2;
     border-radius: 7.5%;
     color: white !important;
     
 }
+.nav-item :hover > .dropdown-item{
+    background-color:white !important;
+    border-radius: 0%;
+    color:#814c81 !important;
+    
+}
+.nav-item :hover >.d1:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d2:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d3:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d4:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d5:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+.nav-item :hover >.d6:hover{
+    background-color:#b27db2 !important;
+    border-radius: 0% !important;
+    color: white !important;
+}
+
 hr.style-two {
     border: 0;
     height: 3px;
@@ -172,3 +210,113 @@ html {
   color: white;
   text-align: center;
 }
+.card-title{
+    font-family: Raleway !important;
+    font-weight: 600;
+
+}
+.card-text{
+    font-family: Raleway !important;
+    font-weight: 300;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+    background-color:white !important;
+    border-radius: 0%;
+    color:#814c81 !important;
+}
+.imp{
+    font-weight: 500 !important;
+    text-align: center;
+    font-size: 1.2rem;
+}
+body{
+background-color: #99659e;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+@media(max-width:991px){
+    .nav-item a{
+        text-align: center !important;
+
+        }
+        .nav-item :hover{
+            background-color:#b27db2;
+            color: white !important;
+            border-radius: 0;
+        }
+        .dropdown-item:hover{
+            border-radius: 0;
+            background-color:#b27db2 !important;
+            color: white !important;
+        }
+        #wrapper{
+            display: none;
+        }
+        .swiper-container{
+            display:block !important;
+        }
+        .circular{
+            display: block !important;
+            float:none !important;
+            border-radius: 5.5% !important;
+            shape-outside: none !important;
+            margin: 0 auto !important;
+            width:50% !important;
+          }
+          .one{
+              white-space: pre-line;
+          }
+}
+nav{
+    font-weight: bold !important;
+}
+.circular{
+    width: 25%;
+	height: auto;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 50%;
+    shape-outside:circle(50%);
+    shape-image-threshold: 0.5;
+  }
+  #wrapper {
+	max-width: 900px;
+	max-height: 400px;
+	/* margin: 50px 0 0 450px; */
+	position: relative;
+	/* top: 50%;
+    left: 50%; */
+    
+}
+#carousel img {
+	display: block;
+	float: left;
+	border: none;
+    position: relative;
+    max-width: 900px;
+	max-height: 400px;
+    
+}
+  .swiper-container{
+      display: none;
+  }
+  .linked{
+      color: #814c81;
+  }
+ 
+  .ul {
+    text-align: center;
+    list-style-position: inside;
+  }
+  .test{
+      text-align: center;
+  }
+  .test ul{
+      display: inline-block;
+      text-align: left;
+  }
+  li{
+      text-align: left !important;
+  }
